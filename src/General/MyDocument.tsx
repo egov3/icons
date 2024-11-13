@@ -18,8 +18,8 @@ export const MyDocument = () => (
       fill="black"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M4 2H20V22H4V2ZM6 4V20H18V4H6Z"
       fill="black"
     />

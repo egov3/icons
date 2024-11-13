@@ -9,14 +9,14 @@ export const Pharmacy = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M6 1H18V6H6V1ZM8 3V4H16V3H8Z"
       fill="black"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M6.00118 7H18.0146L21 11.1796V23H2.99999L2.99997 11.7084L6.00118 7ZM7.0981 9L4.99999 12.2916V21H19V11.8205L16.9854 9H7.0981Z"
       fill="black"
     />

@@ -9,8 +9,8 @@ export const SocialRegistry = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M2 2H11V22H2V3.00004V2ZM4 4V20H9V4H4Z"
       fill="black"
     />
@@ -19,14 +19,14 @@ export const SocialRegistry = () => (
       fill="black"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M7.5 5.5L7.5 15H5.5L5.5 5.5H7.5Z"
       fill="black"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M13 2H22V22H13V3.00004V2ZM15 4V20H20V4H15Z"
       fill="black"
     />
@@ -35,8 +35,8 @@ export const SocialRegistry = () => (
       fill="black"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M18.5 5.5V15H16.5V5.5H18.5Z"
       fill="black"
     />

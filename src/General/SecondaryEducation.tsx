@@ -9,8 +9,8 @@ export const SecondaryEducation = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M11.0289 2H14.6884V4H12.9486V5C14.6912 5.32926 16.6236 6.47549 17 8H22V22H2V8H7C7.37635 6.47549 9.28633 5.32926 11.0289 5V2ZM4 20H20V10H15V9.13812C15 7.86987 13.4384 6.82873 11.9888 6.82873C10.5391 6.82873 9 7.86987 9 9.13812V10H4V20Z"
       fill="black"
     />
