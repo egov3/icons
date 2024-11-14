@@ -8,7 +8,7 @@ export const ResumeFilled = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_1926_10703)">
+    <g clipPath="url(#clip0_1926_10703)">
       <mask
         id="mask0_1926_10703"
         maskUnits="userSpaceOnUse"

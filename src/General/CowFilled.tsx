@@ -8,7 +8,7 @@ export const CowFilled = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_1962_12620)">
+    <g clipPath="url(#clip0_1962_12620)">
       <mask
         id="mask0_1962_12620"
         maskUnits="userSpaceOnUse"

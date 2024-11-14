@@ -8,7 +8,7 @@ export const Kaspi = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_596_3234)">
+    <g clipPath="url(#clip0_596_3234)">
       <path
         fillRule="evenodd"
         clipRule="evenodd"

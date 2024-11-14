@@ -8,7 +8,7 @@ export const Eotinish = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_572_4572)">
+    <g clipPath="url(#clip0_572_4572)">
       <path
         d="M4.34478 12.0472C4.34478 10.0152 5.13597 8.10562 6.57194 6.66882C6.84074 6.40002 7.13113 6.14962 7.43432 5.92642C8.7487 4.95522 10.3094 4.40971 11.9486 4.40971C12.5486 4.40971 13.0358 4.92722 13.0358 5.52722C13.0358 6.12722 12.5494 6.61362 11.9494 6.61362C10.7783 6.61362 9.66388 6.98002 8.7247 7.67442C8.5079 7.83442 8.30071 8.01282 8.10871 8.20482C7.08313 9.23123 6.51834 10.5952 6.51834 12.0464L4.34478 12.0472ZM4.34478 12.0472C4.34478 12.78 4.44878 13.504 4.65278 14.1976C5.59836 17.4096 8.5983 19.6536 11.9486 19.6536C13.9806 19.6536 15.8902 18.8624 17.3253 17.4256C17.7493 17.0008 17.7493 16.3136 17.3245 15.8888C16.9005 15.464 16.2126 15.4648 15.7886 15.8896C14.763 16.9152 13.3998 17.4808 11.9478 17.4808C9.55428 17.4808 7.41112 15.8784 6.73594 13.584C6.59034 13.0896 6.51594 12.572 6.51594 12.048L4.34478 12.0472Z"
         fill="url(#paint0_linear_572_4572)"
@@ -39,9 +39,9 @@ export const Eotinish = () => (
         y2="11.9414"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0.0687547" stop-color="#231EE5" />
-        <stop offset="0.520833" stop-color="#CE2651" />
-        <stop offset="0.913611" stop-color="#FF6700" />
+        <stop offset="0.0687547" stopColor="#231EE5" />
+        <stop offset="0.520833" stopColor="#CE2651" />
+        <stop offset="0.913611" stopColor="#FF6700" />
       </linearGradient>
       <linearGradient
         id="paint1_linear_572_4572"
@@ -51,9 +51,9 @@ export const Eotinish = () => (
         y2="25.6363"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#4440DB" />
-        <stop offset="0.510417" stop-color="#4440DB" />
-        <stop offset="1" stop-color="#2A27AD" />
+        <stop stopColor="#4440DB" />
+        <stop offset="0.510417" stopColor="#4440DB" />
+        <stop offset="1" stopColor="#2A27AD" />
       </linearGradient>
       <linearGradient
         id="paint2_linear_572_4572"
@@ -63,9 +63,9 @@ export const Eotinish = () => (
         y2="6.83787"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#4440DB" />
-        <stop offset="0.520468" stop-color="#CE2651" />
-        <stop offset="1" stop-color="#FF6700" />
+        <stop stopColor="#4440DB" />
+        <stop offset="0.520468" stopColor="#CE2651" />
+        <stop offset="1" stopColor="#FF6700" />
       </linearGradient>
       <linearGradient
         id="paint3_linear_572_4572"
@@ -75,9 +75,9 @@ export const Eotinish = () => (
         y2="20.8403"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#4440DB" />
-        <stop offset="0.505208" stop-color="#CE2651" />
-        <stop offset="0.967" stop-color="#FF6700" />
+        <stop stopColor="#4440DB" />
+        <stop offset="0.505208" stopColor="#CE2651" />
+        <stop offset="0.967" stopColor="#FF6700" />
       </linearGradient>
       <clipPath id="clip0_572_4572">
         <rect width="24" height="24" fill="white" />
