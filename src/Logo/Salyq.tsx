@@ -2,19 +2,21 @@ import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
 import { IIcon } from "../interfaces/IIcon";
 
-export const Salyq = (props: IIcon = iconBaseDefaults) => (
+export const Salyq = (
+  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
+) => (
   <svg
-    width={props.width}
-    height={props.height}
+    width={iconBaseDefaults.width}
+    height={iconBaseDefaults.height}
     viewBox="0 0 24 24"
-    fill={props.fill}
+    fill={iconBaseDefaults.fill}
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
   >
     <g clipPath="url(#clip0_572_4545)">
       <rect
-        width={props.width}
-        height={props.height}
+        width={iconBaseDefaults.width}
+        height={iconBaseDefaults.height}
         fill="url(#pattern0_572_4545)"
       />
     </g>
@@ -31,7 +33,11 @@ export const Salyq = (props: IIcon = iconBaseDefaults) => (
         />
       </pattern>
       <clipPath id="clip0_572_4545">
-        <rect width={props.width} height={props.height} fill="white" />
+        <rect
+          width={iconBaseDefaults.width}
+          height={iconBaseDefaults.height}
+          fill="white"
+        />
       </clipPath>
       <image
         id="image0_572_4545"

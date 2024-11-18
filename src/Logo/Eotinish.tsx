@@ -2,12 +2,14 @@ import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
 import { IIcon } from "../interfaces/IIcon";
 
-export const Eotinish = (props: IIcon = iconBaseDefaults) => (
+export const Eotinish = (
+  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
+) => (
   <svg
-    width={props.width}
-    height={props.height}
+    width={iconBaseDefaults.width}
+    height={iconBaseDefaults.height}
     viewBox="0 0 24 24"
-    fill={props.fill}
+    fill={iconBaseDefaults.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_572_4572)">
@@ -82,7 +84,11 @@ export const Eotinish = (props: IIcon = iconBaseDefaults) => (
         <stop offset="0.967" stopColor="#FF6700" />
       </linearGradient>
       <clipPath id="clip0_572_4572">
-        <rect width={props.width} height={props.height} fill="white" />
+        <rect
+          width={iconBaseDefaults.width}
+          height={iconBaseDefaults.height}
+          fill="white"
+        />
       </clipPath>
     </defs>
   </svg>

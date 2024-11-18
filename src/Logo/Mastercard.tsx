@@ -2,12 +2,14 @@ import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
 import { IIcon } from "../interfaces/IIcon";
 
-export const Mastercard = (props: IIcon = iconBaseDefaults) => (
+export const Mastercard = (
+  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
+) => (
   <svg
     width="35"
-    height={props.height}
+    height={iconBaseDefaults.height}
     viewBox="0 0 35 24"
-    fill={props.fill}
+    fill={iconBaseDefaults.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <rect
