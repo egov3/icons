@@ -1,15 +1,20 @@
 import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
-import { IIcon } from "../interfaces/IIcon";
 
-export const Mastercard = (
-  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
-) => (
+export const Mastercard = ({
+  fill = iconBaseDefaults.fill,
+  width = iconBaseDefaults.width,
+  height = iconBaseDefaults.height,
+}: React.SVGProps<SVGSVGElement> & {
+  fill?: string;
+  width?: string;
+  height?: string;
+}) => (
   <svg
     width="35"
-    height={iconBaseDefaults.height}
+    height={height}
     viewBox="0 0 35 24"
-    fill={iconBaseDefaults.fill}
+    fill={fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <rect

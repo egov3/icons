@@ -1,15 +1,20 @@
 import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
-import { IIcon } from "../interfaces/IIcon";
 
-export const Star = (
-  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
-) => (
+export const Star = ({
+  fill = iconBaseDefaults.fill,
+  width = iconBaseDefaults.width,
+  height = iconBaseDefaults.height,
+}: React.SVGProps<SVGSVGElement> & {
+  fill?: string;
+  width?: string;
+  height?: string;
+}) => (
   <svg
-    width={iconBaseDefaults.width}
-    height={iconBaseDefaults.height}
+    width={width}
+    height={height}
     viewBox="0 0 24 24"
-    fill={iconBaseDefaults.fill}
+    fill={fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_2066_3092)">
@@ -20,11 +25,7 @@ export const Star = (
     </g>
     <defs>
       <clipPath id="clip0_2066_3092">
-        <rect
-          width={iconBaseDefaults.width}
-          height={iconBaseDefaults.height}
-          fill="white"
-        />
+        <rect width={width} height={height} fill="white" />
       </clipPath>
     </defs>
   </svg>

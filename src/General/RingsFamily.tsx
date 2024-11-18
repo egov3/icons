@@ -1,15 +1,20 @@
 import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
-import { IIcon } from "../interfaces/IIcon";
 
-export const RingsFamily = (
-  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
-) => (
+export const RingsFamily = ({
+  fill = iconBaseDefaults.fill,
+  width = iconBaseDefaults.width,
+  height = iconBaseDefaults.height,
+}: React.SVGProps<SVGSVGElement> & {
+  fill?: string;
+  width?: string;
+  height?: string;
+}) => (
   <svg
-    width={iconBaseDefaults.width}
-    height={iconBaseDefaults.height}
+    width={width}
+    height={height}
     viewBox="0 0 24 24"
-    fill={iconBaseDefaults.fill}
+    fill={fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path d="M18.0001 1.19995H14.4001V3.59995H18.0001V1.19995Z" fill="black" />

@@ -1,15 +1,20 @@
 import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
-import { IIcon } from "../interfaces/IIcon";
 
-export const Resume = (
-  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
-) => (
+export const Resume = ({
+  fill = iconBaseDefaults.fill,
+  width = iconBaseDefaults.width,
+  height = iconBaseDefaults.height,
+}: React.SVGProps<SVGSVGElement> & {
+  fill?: string;
+  width?: string;
+  height?: string;
+}) => (
   <svg
-    width={iconBaseDefaults.width}
-    height={iconBaseDefaults.height}
+    width={width}
+    height={height}
     viewBox="0 0 24 24"
-    fill={iconBaseDefaults.fill}
+    fill={fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_1926_10702)">
@@ -18,8 +23,8 @@ export const Resume = (
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
-        width={iconBaseDefaults.width}
-        height={iconBaseDefaults.height}
+        width={width}
+        height={height}
       >
         <path d="M24 0H0V24H24V0Z" fill="white" />
       </mask>
@@ -32,11 +37,7 @@ export const Resume = (
     </g>
     <defs>
       <clipPath id="clip0_1926_10702">
-        <rect
-          width={iconBaseDefaults.width}
-          height={iconBaseDefaults.height}
-          fill="white"
-        />
+        <rect width={width} height={height} fill="white" />
       </clipPath>
     </defs>
   </svg>

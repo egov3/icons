@@ -1,24 +1,25 @@
 import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
-import { IIcon } from "../interfaces/IIcon";
 
-export const Salyq = (
-  iconBaseDefaults: React.SVGProps<SVGSVGElement> & IIcon
-) => (
+export const Salyq = ({
+  fill = iconBaseDefaults.fill,
+  width = iconBaseDefaults.width,
+  height = iconBaseDefaults.height,
+}: React.SVGProps<SVGSVGElement> & {
+  fill?: string;
+  width?: string;
+  height?: string;
+}) => (
   <svg
-    width={iconBaseDefaults.width}
-    height={iconBaseDefaults.height}
+    width={width}
+    height={height}
     viewBox="0 0 24 24"
-    fill={iconBaseDefaults.fill}
+    fill={fill}
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
   >
     <g clipPath="url(#clip0_572_4545)">
-      <rect
-        width={iconBaseDefaults.width}
-        height={iconBaseDefaults.height}
-        fill="url(#pattern0_572_4545)"
-      />
+      <rect width={width} height={height} fill="url(#pattern0_572_4545)" />
     </g>
     <defs>
       <pattern
@@ -33,11 +34,7 @@ export const Salyq = (
         />
       </pattern>
       <clipPath id="clip0_572_4545">
-        <rect
-          width={iconBaseDefaults.width}
-          height={iconBaseDefaults.height}
-          fill="white"
-        />
+        <rect width={width} height={height} fill="white" />
       </clipPath>
       <image
         id="image0_572_4545"
