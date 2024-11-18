@@ -1,16 +1,22 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const Con1 = () => (
+export const Con1 = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
   >
     <g clipPath="url(#clip0_572_4573)">
-      <rect width="24" height="24" fill="url(#pattern0_572_4573)" />
+      <rect
+        width={props.width}
+        height={props.height}
+        fill="url(#pattern0_572_4573)"
+      />
     </g>
     <defs>
       <pattern
@@ -22,7 +28,7 @@ export const Con1 = () => (
         <use xlinkHref="#image0_572_4573" transform="scale(0.00195312)" />
       </pattern>
       <clipPath id="clip0_572_4573">
-        <rect width="24" height="24" fill="white" />
+        <rect width={props.width} height={props.height} fill="white" />
       </clipPath>
       <image
         id="image0_572_4573"

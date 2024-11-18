@@ -1,11 +1,13 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const ResumeFilled = () => (
+export const ResumeFilled = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_1926_10703)">
@@ -14,8 +16,8 @@ export const ResumeFilled = () => (
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
-        width="24"
-        height="24"
+        width={props.width}
+        height={props.height}
       >
         <path d="M24 0H0V24H24V0Z" fill="white" />
       </mask>
@@ -28,7 +30,7 @@ export const ResumeFilled = () => (
     </g>
     <defs>
       <clipPath id="clip0_1926_10703">
-        <rect width="24" height="24" fill="white" />
+        <rect width={props.width} height={props.height} fill="white" />
       </clipPath>
     </defs>
   </svg>

@@ -1,11 +1,13 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const ShieldWarninng = () => (
+export const ShieldWarninng = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path d="M12.95 8.5L12.5907 12.5H11.4093L11.05 8.5H12.95Z" fill="black" />

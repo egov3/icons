@@ -1,11 +1,13 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const Halyk = () => (
+export const Halyk = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_596_3233)">
@@ -20,7 +22,7 @@ export const Halyk = () => (
     </g>
     <defs>
       <clipPath id="clip0_596_3233">
-        <rect width="24" height="24" fill="white" />
+        <rect width={props.width} height={props.height} fill="white" />
       </clipPath>
     </defs>
   </svg>

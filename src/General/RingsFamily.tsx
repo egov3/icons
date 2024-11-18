@@ -1,11 +1,13 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const RingsFamily = () => (
+export const RingsFamily = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path d="M18.0001 1.19995H14.4001V3.59995H18.0001V1.19995Z" fill="black" />

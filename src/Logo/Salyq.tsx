@@ -1,16 +1,22 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const Salyq = () => (
+export const Salyq = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
   >
     <g clipPath="url(#clip0_572_4545)">
-      <rect width="24" height="24" fill="url(#pattern0_572_4545)" />
+      <rect
+        width={props.width}
+        height={props.height}
+        fill="url(#pattern0_572_4545)"
+      />
     </g>
     <defs>
       <pattern
@@ -25,7 +31,7 @@ export const Salyq = () => (
         />
       </pattern>
       <clipPath id="clip0_572_4545">
-        <rect width="24" height="24" fill="white" />
+        <rect width={props.width} height={props.height} fill="white" />
       </clipPath>
       <image
         id="image0_572_4545"

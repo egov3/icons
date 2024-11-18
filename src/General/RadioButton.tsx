@@ -1,11 +1,13 @@
 import React from "react";
+import { iconBaseDefaults } from "../constants/iconDefaults";
+import { IIcon } from "../interfaces/IIcon";
 
-export const RadioButton = () => (
+export const RadioButton = (props: IIcon = iconBaseDefaults) => (
   <svg
-    width="24"
-    height="24"
+    width={props.width}
+    height={props.height}
     viewBox="0 0 24 24"
-    fill="none"
+    fill={props.fill}
     xmlns="http://www.w3.org/2000/svg"
   >
     <mask
@@ -13,10 +15,10 @@ export const RadioButton = () => (
       maskUnits="userSpaceOnUse"
       x="0"
       y="0"
-      width="24"
-      height="24"
+      width={props.width}
+      height={props.height}
     >
-      <rect width="24" height="24" fill="#D9D9D9" />
+      <rect width={props.width} height={props.height} fill="#D9D9D9" />
     </mask>
     <g mask="url(#mask0_585_263)">
       <path
