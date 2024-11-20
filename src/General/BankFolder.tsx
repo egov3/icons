@@ -1,21 +1,13 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const BankFolder = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const BankFolder = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M8.13 5L10.13 7H20V19H4V5H8.13ZM8.9584 3H2V21H22V5H10.9583L8.9584 3Z"

@@ -1,20 +1,11 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const Halyk = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const Halyk = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <g clipPath="url(#clip0_596_3233)">
@@ -29,7 +20,7 @@ export const Halyk = ({
     </g>
     <defs>
       <clipPath id="clip0_596_3233">
-        <rect width={width} height={height} fill="white" />
+        <rect width="24" height="24" fill="white" />
       </clipPath>
     </defs>
   </svg>

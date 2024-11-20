@@ -1,21 +1,13 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const ArrowLeft = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const ArrowLeft = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M9.31433 7.87499L8.13599 6.69666L2.8335 12L8.13599 17.3033L9.31433 16.125L6.0235 12.8333H21.4277V11.1667H6.0235L9.31433 7.87499Z"

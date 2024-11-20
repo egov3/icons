@@ -1,21 +1,15 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const SoftwareRegistryFilled = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const SoftwareRegistryFilled = (
+  props: React.SVGProps<SVGSVGElement>
+) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       fillRule="evenodd"

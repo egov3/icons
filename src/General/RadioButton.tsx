@@ -1,31 +1,24 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const RadioButton = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const RadioButton = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <mask
       id="mask0_585_263"
+      style={{ maskType: "alpha" }}
       maskUnits="userSpaceOnUse"
       x="0"
       y="0"
-      width={width}
-      height={height}
+      width="24"
+      height="24"
     >
-      <rect width={width} height={height} fill="#D9D9D9" />
+      <rect width="24" height="24" fill="#D9D9D9" />
     </mask>
     <g mask="url(#mask0_585_263)">
       <path

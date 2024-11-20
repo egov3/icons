@@ -1,25 +1,16 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const Salyq = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const Salyq = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
   >
     <g clipPath="url(#clip0_572_4545)">
-      <rect width={width} height={height} fill="url(#pattern0_572_4545)" />
+      <rect width="24" height="24" fill="url(#pattern0_572_4545)" />
     </g>
     <defs>
       <pattern
@@ -34,7 +25,7 @@ export const Salyq = ({
         />
       </pattern>
       <clipPath id="clip0_572_4545">
-        <rect width={width} height={height} fill="white" />
+        <rect width="24" height="24" fill="white" />
       </clipPath>
       <image
         id="image0_572_4545"

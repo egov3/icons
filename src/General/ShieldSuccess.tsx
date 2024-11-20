@@ -1,21 +1,13 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const ShieldSuccess = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const ShieldSuccess = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M9.26561 10.1209L8.06451 11.3231L11.3975 14.6566L16.123 9.93151L14.9219 8.72931L11.3975 12.2523L9.26561 10.1209Z"

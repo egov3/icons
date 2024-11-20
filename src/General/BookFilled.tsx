@@ -1,21 +1,13 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const BookFilled = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const BookFilled = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M2.5 3.5H8C10.2092 3.5 12 5.29085 12 7.5V21C12 19.3431 10.6568 18 9 18H2.5V3.5Z"

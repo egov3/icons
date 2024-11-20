@@ -1,30 +1,23 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const ChatFilled = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const ChatFilled = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
-    <g clipPath="url(#clip0_1932_11191)">
+    <g clip-path="url(#clip0_1932_11191)">
       <mask
         id="mask0_1932_11191"
+        style={{ maskType: "luminance" }}
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
-        width={width}
-        height={height}
+        width="24"
+        height="24"
       >
         <path d="M24 0H0V24H24V0Z" fill="white" />
       </mask>
@@ -37,7 +30,7 @@ export const ChatFilled = ({
     </g>
     <defs>
       <clipPath id="clip0_1932_11191">
-        <rect width={width} height={height} fill="white" />
+        <rect width="24" height="24" fill="white" />
       </clipPath>
     </defs>
   </svg>

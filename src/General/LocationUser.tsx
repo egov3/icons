@@ -1,21 +1,13 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const LocationUser = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const LocationUser = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M11.9998 2C9.87889 2.0023 7.84553 2.79502 6.3458 4.20424C4.84608 5.61347 4.00245 7.52414 4 9.51708C4 15.1694 11.1025 21.2413 11.4048 21.4968L11.9998 22L12.5948 21.4968C12.8972 21.2413 20 15.1697 20 9.51708C19.9975 7.52409 19.1538 5.61342 17.654 4.2042C16.1542 2.79498 14.1208 2.00228 11.9998 2ZM12 19.5C10.3399 17.9553 6 13.5623 6 9.5175C6 7.96714 6.83333 6.59627 8 5.5C9 4.5 10.756 4 12 4C13.3823 4 14.621 4.20424 16 5.5C17.1667 6.59627 18 7.96714 18 9.5175C18 13.5616 13.6605 17.9547 12 19.5Z"

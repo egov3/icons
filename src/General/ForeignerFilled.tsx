@@ -1,21 +1,13 @@
 import React from "react";
-import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const ForeignerFilled = ({
-  fill = iconBaseDefaults.fill,
-  width = iconBaseDefaults.width,
-  height = iconBaseDefaults.height,
-}: React.SVGProps<SVGSVGElement> & {
-  fill?: string;
-  width?: string;
-  height?: string;
-}) => (
+export const ForeignerFilled = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width={width}
-    height={height}
+    width="24"
+    height="24"
     viewBox="0 0 24 24"
-    fill={fill}
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M6.5 12C6.5 11.3308 6.5247 10.662 6.5679 10H2.2009C1.93303 11.3199 1.93303 12.6801 2.2009 14H6.5679C6.5247 13.338 6.5 12.6692 6.5 12ZM2.8376 16C3.89723 18.4169 5.86718 20.3185 8.32 21.2921C7.50625 19.6292 6.98277 17.8393 6.7722 16H2.8376ZM12 2C10.5651 2 9.3334 4.47 8.7932 8H12V2ZM12 10H8.57C8.5241 10.6463 8.5 11.315 8.5 12C8.5 12.685 8.5244 13.3537 8.57 14H15.43C15.4759 13.3537 15.5 12.685 15.5 12H12V10ZM15.68 21.2921C18.1328 20.3185 20.1027 18.4169 21.1624 16H17.2278C17.0172 17.8393 16.4938 19.6292 15.68 21.2921ZM2.8376 8H6.7722C6.98277 6.16065 7.50625 4.37084 8.32 2.7079C5.86718 3.68152 3.89723 5.58309 2.8376 8ZM17.5 12C17.5 12.6692 17.4753 13.338 17.4321 14H21.7991C21.9328 13.3417 22.0001 12.6717 22 12H17.5ZM12 22C13.4349 22 14.6666 19.5305 15.2068 16H8.7932C9.3334 19.5305 10.5651 22 12 22Z"

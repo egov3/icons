@@ -1,568 +1,579 @@
 import { Accessibility } from './Accessibility';
-import { Account } from './Account';
 import { AccountFilled } from './AccountFilled';
-import { Accreditation } from './Accreditation';
+import { Account } from './Account';
 import { AccreditationFilled } from './AccreditationFilled';
+import { Accreditation } from './Accreditation';
 import { Add } from './Add';
-import { Agroculture } from './Agroculture';
 import { AgrocultureFilled } from './AgrocultureFilled';
-import { Airplane } from './Airplane';
+import { Agroculture } from './Agroculture';
 import { AirplaneFilled } from './AirplaneFilled';
-import { Allowances } from './Allowances';
+import { Airplane } from './Airplane';
 import { AllowancesFilled } from './AllowancesFilled';
-import { Apostille } from './Apostille';
+import { Allowances } from './Allowances';
 import { ApostilleFilled } from './ApostilleFilled';
-import { Archive } from './Archive';
+import { Apostille } from './Apostille';
 import { ArchiveFilled } from './ArchiveFilled';
-import { Bag } from './Bag';
+import { Archive } from './Archive';
 import { BagFilled } from './BagFilled';
-import { BagSearch } from './BagSearch';
+import { Bag } from './Bag';
 import { BagSearchFilled } from './BagSearchFilled';
-import { Balance } from './Balance';
+import { BagSearch } from './BagSearch';
 import { BalanceFilled } from './BalanceFilled';
-import { BankFolder } from './BankFolder';
+import { Balance } from './Balance';
 import { BankFolderFilled } from './BankFolderFilled';
-import { Book } from './Book';
+import { BankFolder } from './BankFolder';
 import { BookFilled } from './BookFilled';
-import { Brain } from './Brain';
+import { Book } from './Book';
 import { BrainFilled } from './BrainFilled';
-import { Broadcasttv } from './Broadcasttv';
+import { Brain } from './Brain';
 import { BroadcasttvFilled } from './BroadcasttvFilled';
+import { Broadcasttv } from './Broadcasttv';
 import { BurgerMenu } from './BurgerMenu';
-import { BusFront } from './BusFront';
-import { BusFrontFilled } from './BusFrontFilled';
-import { Business } from './Business';
 import { BusinessFilled } from './BusinessFilled';
-import { BusinessRegistration } from './BusinessRegistration';
+import { Business } from './Business';
 import { BusinessRegistrationFilled } from './BusinessRegistrationFilled';
-import { Calendar } from './Calendar';
+import { BusinessRegistration } from './BusinessRegistration';
+import { BusFrontFilled } from './BusFrontFilled';
+import { BusFront } from './BusFront';
 import { CalendarFilled } from './CalendarFilled';
+import { Calendar } from './Calendar';
 import { Call } from './Call';
-import { Camera } from './Camera';
 import { CameraFilled } from './CameraFilled';
+import { Camera } from './Camera';
+import { CarFilled } from './CarFilled';
 import { Car } from './Car';
 import { Card } from './Card';
-import { CarFilled } from './CarFilled';
-import { Chat } from './Chat';
 import { ChatFilled } from './ChatFilled';
-import { CheckboxEmpty } from './CheckboxEmpty';
+import { Chat } from './Chat';
 import { CheckboxEmptyFilled } from './CheckboxEmptyFilled';
+import { CheckboxEmpty } from './CheckboxEmpty';
 import { CheckedFilled } from './CheckedFilled';
 import { CheckedRound } from './CheckedRound';
-import { Chevronincircleleft } from './Chevronincircleleft';
 import { ChevronincircleleftFilled } from './ChevronincircleleftFilled';
-import { ChildFace } from './ChildFace';
+import { Chevronincircleleft } from './Chevronincircleleft';
 import { ChildFaceFilled } from './ChildFaceFilled';
-import { City } from './City';
+import { ChildFace } from './ChildFace';
 import { CityFilled } from './CityFilled';
+import { City } from './City';
 import { Clear } from './Clear';
 import { ClearAlternative } from './ClearAlternative';
 import { Close } from './Close';
-import { College } from './College';
 import { CollegeFilled } from './CollegeFilled';
-import { Construction } from './Construction';
+import { College } from './College';
 import { ConstructionFilled } from './ConstructionFilled';
+import { Construction } from './Construction';
 import { Copy } from './Copy';
-import { Copyright } from './Copyright';
 import { Copyright1 } from './Copyright1';
 import { CopyrightFilled } from './CopyrightFilled';
-import { Court } from './Court';
+import { Copyright } from './Copyright';
 import { CourtFilled } from './CourtFilled';
-import { Cow } from './Cow';
+import { Court } from './Court';
 import { Cow1 } from './Cow1';
-import { CowFilled } from './CowFilled';
 import { CowFilled1 } from './CowFilled1';
-import { Customs } from './Customs';
+import { CowFilled } from './CowFilled';
+import { Cow } from './Cow';
 import { CustomsFilled } from './CustomsFilled';
-import { CustomsTaxes } from './CustomsTaxes';
+import { Customs } from './Customs';
 import { CustomsTaxesFilled } from './CustomsTaxesFilled';
-import { DebitCard } from './DebitCard';
+import { CustomsTaxes } from './CustomsTaxes';
 import { DebitCardFilled } from './DebitCardFilled';
+import { DebitCard } from './DebitCard';
 import { DigitalId } from './DigitalId';
-import { DisabilitySupport } from './DisabilitySupport';
 import { DisabilitySupportFilled } from './DisabilitySupportFilled';
-import { Doc } from './Doc';
+import { DisabilitySupport } from './DisabilitySupport';
 import { DocFilled } from './DocFilled';
-import { DocumentDiagram } from './DocumentDiagram';
+import { Doc } from './Doc';
 import { DocumentDiagramFilled } from './DocumentDiagramFilled';
-import { DocumentTable } from './DocumentTable';
+import { DocumentDiagram } from './DocumentDiagram';
 import { DocumentTableFilled } from './DocumentTableFilled';
+import { DocumentTable } from './DocumentTable';
 import { DragIndicator } from './DragIndicator';
 import { DriverLicense } from './DriverLicense';
-import { Earth } from './Earth';
 import { EarthFilled } from './EarthFilled';
-import { Edit } from './Edit';
+import { Earth } from './Earth';
 import { EditFilled } from './EditFilled';
+import { Edit } from './Edit';
 import { EditNote } from './EditNote';
-import { Education } from './Education';
 import { EducationFilled } from './EducationFilled';
-import { Emergency } from './Emergency';
+import { Education } from './Education';
 import { EmergencyFilled } from './EmergencyFilled';
-import { Employment } from './Employment';
+import { Emergency } from './Emergency';
 import { EmploymentFilled } from './EmploymentFilled';
+import { Employment } from './Employment';
 import { Error } from './Error';
-import { Factory } from './Factory';
 import { FactoryFilled } from './FactoryFilled';
-import { Family } from './Family';
+import { Factory } from './Factory';
 import { FamilyFilled } from './FamilyFilled';
-import { FamilyHelp } from './FamilyHelp';
+import { Family } from './Family';
 import { FamilyHelpFilled } from './FamilyHelpFilled';
-import { Finance } from './Finance';
+import { FamilyHelp } from './FamilyHelp';
 import { FinanceFilled } from './FinanceFilled';
-import { FinanceIncome } from './FinanceIncome';
+import { Finance } from './Finance';
 import { FinanceIncomeFilled } from './FinanceIncomeFilled';
+import { FinanceIncome } from './FinanceIncome';
 import { Fingerprint } from './Fingerprint';
-import { Flag } from './Flag';
 import { FlagFilled } from './FlagFilled';
-import { FolderOpened } from './FolderOpened';
+import { Flag } from './Flag';
 import { FolderOpenedFilled } from './FolderOpenedFilled';
-import { Foreigner } from './Foreigner';
+import { FolderOpened } from './FolderOpened';
 import { ForeignerFilled } from './ForeignerFilled';
-import { Forest } from './Forest';
+import { Foreigner } from './Foreigner';
 import { ForestFilled } from './ForestFilled';
-import { GoingAbroad } from './GoingAbroad';
+import { Forest } from './Forest';
 import { GoingAbroadFilled } from './GoingAbroadFilled';
-import { GuardianshipChild } from './GuardianshipChild';
+import { GoingAbroad } from './GoingAbroad';
 import { GuardianshipChildFilled } from './GuardianshipChildFilled';
-import { Hand } from './Hand';
+import { GuardianshipChild } from './GuardianshipChild';
 import { HandFilled } from './HandFilled';
-import { Handshake } from './Handshake';
+import { Hand } from './Hand';
 import { HandshakeFilled } from './HandshakeFilled';
+import { Handshake } from './Handshake';
 import { Health } from './Health';
-import { Heart } from './Heart';
 import { HeartFilled } from './HeartFilled';
+import { Heart } from './Heart';
 import { Help } from './Help';
-import { HelpCenterArticle } from './HelpCenterArticle';
 import { HelpCenterArticleFilled } from './HelpCenterArticleFilled';
+import { HelpCenterArticle } from './HelpCenterArticle';
 import { Hourglass } from './Hourglass';
-import { HousingRelations } from './HousingRelations';
 import { HousingRelationsFilled } from './HousingRelationsFilled';
-import { HousServices } from './HousServices';
+import { HousingRelations } from './HousingRelations';
 import { HousServicesFilled } from './HousServicesFilled';
+import { HousServices } from './HousServices';
 import { InfoFilled } from './InfoFilled';
 import { InfoStroke } from './InfoStroke';
 import { Internet } from './Internet';
-import { Job } from './Job';
 import { JobFilled } from './JobFilled';
-import { Key } from './Key';
+import { Job } from './Job';
 import { KeyFilled } from './KeyFilled';
+import { Key } from './Key';
 import { Language } from './Language';
-import { Law } from './Law';
 import { LawFilled } from './LawFilled';
-import { Leaf } from './Leaf';
+import { Law } from './Law';
 import { LeafFilled } from './LeafFilled';
-import { License } from './License';
+import { Leaf } from './Leaf';
 import { LicenseFilled } from './LicenseFilled';
-import { Licenses } from './Licenses';
+import { License } from './License';
 import { LicensesFilled } from './LicensesFilled';
+import { Licenses } from './Licenses';
 import { Like } from './Like';
 import { ListMenu } from './ListMenu';
 import { ListSquare } from './ListSquare';
 import { Loader } from './Loader';
-import { Loan } from './Loan';
 import { LoanFilled } from './LoanFilled';
-import { LocationUser } from './LocationUser';
+import { Loan } from './Loan';
 import { LocationUserFilled } from './LocationUserFilled';
+import { LocationUser } from './LocationUser';
 import { Lock } from './Lock';
 import { Logout } from './Logout';
-import { Medicine } from './Medicine';
-import { MedicineBriefcase } from './MedicineBriefcase';
-import { MedicineBriefcaseFilled } from './MedicineBriefcaseFilled';
-import { MedicineCertification } from './MedicineCertification';
-import { MedicineCertificationFilled } from './MedicineCertificationFilled';
 import { MedicineFilled } from './MedicineFilled';
-import { MedicineHelp } from './MedicineHelp';
+import { Medicine } from './Medicine';
+import { MedicineBriefcaseFilled } from './MedicineBriefcaseFilled';
+import { MedicineBriefcase } from './MedicineBriefcase';
+import { MedicineCertificationFilled } from './MedicineCertificationFilled';
+import { MedicineCertification } from './MedicineCertification';
 import { MedicineHelpFilled } from './MedicineHelpFilled';
+import { MedicineHelp } from './MedicineHelp';
 import { Message } from './Message';
-import { Microphone } from './Microphone';
+import { MessageListFilled } from './MessageListFilled';
+import { MessageListOutline } from './MessageListOutline';
 import { MicrophoneFilled } from './MicrophoneFilled';
-import { MilitaryService } from './MilitaryService';
+import { Microphone } from './Microphone';
 import { MilitaryServiceFilled } from './MilitaryServiceFilled';
-import { Mining } from './Mining';
+import { MilitaryService } from './MilitaryService';
 import { MiningFilled } from './MiningFilled';
-import { Money } from './Money';
+import { Mining } from './Mining';
 import { MoneyFilled } from './MoneyFilled';
+import { Money } from './Money';
 import { More } from './More';
 import { MoreRoundFilled } from './MoreRoundFilled';
-import { MyDocument } from './MyDocument';
 import { MyDocumentFilled } from './MyDocumentFilled';
-import { Nature } from './Nature';
+import { MyDocument } from './MyDocument';
 import { NatureFilled } from './NatureFilled';
+import { Nature } from './Nature';
 import { Notification } from './Notification';
-import { OnlineRegistry } from './OnlineRegistry';
 import { OnlineRegistryFilled } from './OnlineRegistryFilled';
+import { OnlineRegistry } from './OnlineRegistry';
 import { PaperClip } from './PaperClip';
 import { Passport } from './Passport';
-import { Pension } from './Pension';
 import { PensionFilled } from './PensionFilled';
-import { Permits } from './Permits';
+import { Pension } from './Pension';
 import { PermitsFilled } from './PermitsFilled';
-import { PersonalData } from './PersonalData';
+import { Permits } from './Permits';
 import { PersonalDataFilled } from './PersonalDataFilled';
-import { PersonalId } from './PersonalId';
+import { PersonalData } from './PersonalData';
 import { PersonalIdFilled } from './PersonalIdFilled';
-import { Pharmacy } from './Pharmacy';
+import { PersonalId } from './PersonalId';
 import { PharmacyFilled } from './PharmacyFilled';
+import { Pharmacy } from './Pharmacy';
 import { Phone } from './Phone';
-import { PieChart } from './PieChart';
 import { PieChartFilled } from './PieChartFilled';
-import { PublicOrder } from './PublicOrder';
+import { PieChart } from './PieChart';
 import { PublicOrderFilled } from './PublicOrderFilled';
+import { PublicOrder } from './PublicOrder';
+import { QrCodeFilled } from './QrCodeFilled';
+import { QrCodeOutline } from './QrCodeOutline';
 import { QrCodeScan } from './QrCodeScan';
 import { RadioButton } from './RadioButton';
 import { RadioButtonChecked } from './RadioButtonChecked';
-import { RealEstate } from './RealEstate';
 import { RealEstateFilled } from './RealEstateFilled';
+import { RealEstate } from './RealEstate';
 import { Recycling } from './Recycling';
 import { Reduce } from './Reduce';
-import { Registry } from './Registry';
 import { RegistryFilled } from './RegistryFilled';
-import { Regulation } from './Regulation';
+import { Registry } from './Registry';
 import { RegulationFilled } from './RegulationFilled';
+import { Regulation } from './Regulation';
 import { Request } from './Request';
-import { Resume } from './Resume';
 import { ResumeFilled } from './ResumeFilled';
-import { RingsFamily } from './RingsFamily';
-import { Schedule } from './Schedule';
+import { Resume } from './Resume';
 import { ScheduleFilled } from './ScheduleFilled';
-import { Science } from './Science';
+import { Schedule } from './Schedule';
 import { ScienceFilled } from './ScienceFilled';
+import { Science } from './Science';
 import { Search } from './Search';
-import { SecondaryEducation } from './SecondaryEducation';
 import { SecondaryEducationFilled } from './SecondaryEducationFilled';
+import { SecondaryEducation } from './SecondaryEducation';
+import { ServicesFilled } from './ServicesFilled';
+import { ServicesOutline } from './ServicesOutline';
 import { ShareV1 } from './ShareV1';
 import { ShareV2 } from './ShareV2';
+import { ShieldFilled } from './ShieldFilled';
 import { Shield } from './Shield';
 import { ShieldFailed } from './ShieldFailed';
-import { ShieldFilled } from './ShieldFilled';
 import { ShieldSuccess } from './ShieldSuccess';
 import { ShieldSuccessFilled } from './ShieldSuccessFilled';
 import { ShieldWarninng } from './ShieldWarninng';
-import { Ship } from './Ship';
 import { ShipFilled } from './ShipFilled';
+import { Ship } from './Ship';
 import { SmileFace } from './SmileFace';
-import { SocialRegistry } from './SocialRegistry';
 import { SocialRegistry1 } from './SocialRegistry1';
-import { SoftwareRegistry } from './SoftwareRegistry';
+import { SocialRegistry } from './SocialRegistry';
 import { SoftwareRegistryFilled } from './SoftwareRegistryFilled';
-import { Sport } from './Sport';
+import { SoftwareRegistry } from './SoftwareRegistry';
 import { SportFilled } from './SportFilled';
-import { Sputnik } from './Sputnik';
+import { Sport } from './Sport';
 import { SputnikFilled } from './SputnikFilled';
-import { Star } from './Star';
+import { Sputnik } from './Sputnik';
 import { StarFilled } from './StarFilled';
-import { State } from './State';
+import { Star } from './Star';
 import { StateFilled } from './StateFilled';
-import { Theaters } from './Theaters';
+import { State } from './State';
 import { TheatersFilled } from './TheatersFilled';
-import { Ticket } from './Ticket';
+import { Theaters } from './Theaters';
 import { TicketFilled } from './TicketFilled';
-import { Tourism } from './Tourism';
+import { Ticket } from './Ticket';
 import { TourismFilled } from './TourismFilled';
-import { Toys } from './Toys';
+import { Tourism } from './Tourism';
 import { ToysFilled } from './ToysFilled';
-import { Train } from './Train';
+import { Toys } from './Toys';
 import { TrainFilled } from './TrainFilled';
+import { Train } from './Train';
 import { Trash } from './Trash';
 import { TrashFilled } from './TrashFilled';
-import { TreeFruits } from './TreeFruits';
 import { TreeFruitsFilled } from './TreeFruitsFilled';
-import { Truck } from './Truck';
+import { TreeFruits } from './TreeFruits';
 import { TruckFilled } from './TruckFilled';
-import { University } from './University';
+import { Truck } from './Truck';
 import { UniversityFilled } from './UniversityFilled';
+import { University } from './University';
 import { Unlock } from './Unlock';
 import { Update } from './Update';
-import { VeterinaryControl } from './VeterinaryControl';
 import { VeterinaryControlFilled } from './VeterinaryControlFilled';
-import { ViewGrid } from './ViewGrid';
+import { VeterinaryControl } from './VeterinaryControl';
 import { ViewGridFilled } from './ViewGridFilled';
-import { ViewList } from './ViewList';
+import { ViewGrid } from './ViewGrid';
 import { ViewListFilled } from './ViewListFilled';
+import { ViewList } from './ViewList';
 import { WarningFilled } from './WarningFilled';
-
+import { RingsFamily } from './RingsFamily';
 const General = {
   Accessibility,
-  Account,
   AccountFilled,
-  Accreditation,
+  Account,
   AccreditationFilled,
+  Accreditation,
   Add,
-  Agroculture,
   AgrocultureFilled,
-  Airplane,
+  Agroculture,
   AirplaneFilled,
-  Allowances,
+  Airplane,
   AllowancesFilled,
-  Apostille,
+  Allowances,
   ApostilleFilled,
-  Archive,
+  Apostille,
   ArchiveFilled,
-  Bag,
+  Archive,
   BagFilled,
-  BagSearch,
+  Bag,
   BagSearchFilled,
-  Balance,
+  BagSearch,
   BalanceFilled,
-  BankFolder,
+  Balance,
   BankFolderFilled,
-  Book,
+  BankFolder,
   BookFilled,
-  Brain,
+  Book,
   BrainFilled,
-  Broadcasttv,
+  Brain,
   BroadcasttvFilled,
+  Broadcasttv,
   BurgerMenu,
-  BusFront,
-  BusFrontFilled,
-  Business,
   BusinessFilled,
-  BusinessRegistration,
+  Business,
   BusinessRegistrationFilled,
-  Calendar,
+  BusinessRegistration,
+  BusFrontFilled,
+  BusFront,
   CalendarFilled,
+  Calendar,
   Call,
-  Camera,
   CameraFilled,
+  Camera,
+  CarFilled,
   Car,
   Card,
-  CarFilled,
-  Chat,
   ChatFilled,
-  CheckboxEmpty,
+  Chat,
   CheckboxEmptyFilled,
+  CheckboxEmpty,
   CheckedFilled,
   CheckedRound,
-  Chevronincircleleft,
   ChevronincircleleftFilled,
-  ChildFace,
+  Chevronincircleleft,
   ChildFaceFilled,
-  City,
+  ChildFace,
   CityFilled,
+  City,
   Clear,
   ClearAlternative,
   Close,
-  College,
   CollegeFilled,
-  Construction,
+  College,
   ConstructionFilled,
+  Construction,
   Copy,
-  Copyright,
   Copyright1,
   CopyrightFilled,
-  Court,
+  Copyright,
   CourtFilled,
-  Cow,
+  Court,
   Cow1,
-  CowFilled,
   CowFilled1,
-  Customs,
+  CowFilled,
+  Cow,
   CustomsFilled,
-  CustomsTaxes,
+  Customs,
   CustomsTaxesFilled,
-  DebitCard,
+  CustomsTaxes,
   DebitCardFilled,
+  DebitCard,
   DigitalId,
-  DisabilitySupport,
   DisabilitySupportFilled,
-  Doc,
+  DisabilitySupport,
   DocFilled,
-  DocumentDiagram,
+  Doc,
   DocumentDiagramFilled,
-  DocumentTable,
+  DocumentDiagram,
   DocumentTableFilled,
+  DocumentTable,
   DragIndicator,
   DriverLicense,
-  Earth,
   EarthFilled,
-  Edit,
+  Earth,
   EditFilled,
+  Edit,
   EditNote,
-  Education,
   EducationFilled,
-  Emergency,
+  Education,
   EmergencyFilled,
-  Employment,
+  Emergency,
   EmploymentFilled,
+  Employment,
   Error,
-  Factory,
   FactoryFilled,
-  Family,
+  Factory,
   FamilyFilled,
-  FamilyHelp,
+  Family,
   FamilyHelpFilled,
-  Finance,
+  FamilyHelp,
   FinanceFilled,
-  FinanceIncome,
+  Finance,
   FinanceIncomeFilled,
+  FinanceIncome,
   Fingerprint,
-  Flag,
   FlagFilled,
-  FolderOpened,
+  Flag,
   FolderOpenedFilled,
-  Foreigner,
+  FolderOpened,
   ForeignerFilled,
-  Forest,
+  Foreigner,
   ForestFilled,
-  GoingAbroad,
+  Forest,
   GoingAbroadFilled,
-  GuardianshipChild,
+  GoingAbroad,
   GuardianshipChildFilled,
-  Hand,
+  GuardianshipChild,
   HandFilled,
-  Handshake,
+  Hand,
   HandshakeFilled,
+  Handshake,
   Health,
-  Heart,
   HeartFilled,
+  Heart,
   Help,
-  HelpCenterArticle,
   HelpCenterArticleFilled,
+  HelpCenterArticle,
   Hourglass,
-  HousingRelations,
   HousingRelationsFilled,
-  HousServices,
+  HousingRelations,
   HousServicesFilled,
+  HousServices,
   InfoFilled,
   InfoStroke,
   Internet,
-  Job,
   JobFilled,
-  Key,
+  Job,
   KeyFilled,
+  Key,
   Language,
-  Law,
   LawFilled,
-  Leaf,
+  Law,
   LeafFilled,
-  License,
+  Leaf,
   LicenseFilled,
-  Licenses,
+  License,
   LicensesFilled,
+  Licenses,
   Like,
   ListMenu,
   ListSquare,
   Loader,
-  Loan,
   LoanFilled,
-  LocationUser,
+  Loan,
   LocationUserFilled,
+  LocationUser,
   Lock,
   Logout,
-  Medicine,
-  MedicineBriefcase,
-  MedicineBriefcaseFilled,
-  MedicineCertification,
-  MedicineCertificationFilled,
   MedicineFilled,
-  MedicineHelp,
+  Medicine,
+  MedicineBriefcaseFilled,
+  MedicineBriefcase,
+  MedicineCertificationFilled,
+  MedicineCertification,
   MedicineHelpFilled,
+  MedicineHelp,
   Message,
-  Microphone,
+  MessageListFilled,
+  MessageListOutline,
   MicrophoneFilled,
-  MilitaryService,
+  Microphone,
   MilitaryServiceFilled,
-  Mining,
+  MilitaryService,
   MiningFilled,
-  Money,
+  Mining,
   MoneyFilled,
+  Money,
   More,
   MoreRoundFilled,
-  MyDocument,
   MyDocumentFilled,
-  Nature,
+  MyDocument,
   NatureFilled,
+  Nature,
   Notification,
-  OnlineRegistry,
   OnlineRegistryFilled,
+  OnlineRegistry,
   PaperClip,
   Passport,
-  Pension,
   PensionFilled,
-  Permits,
+  Pension,
   PermitsFilled,
-  PersonalData,
+  Permits,
   PersonalDataFilled,
-  PersonalId,
+  PersonalData,
   PersonalIdFilled,
-  Pharmacy,
+  PersonalId,
   PharmacyFilled,
+  Pharmacy,
   Phone,
-  PieChart,
   PieChartFilled,
-  PublicOrder,
+  PieChart,
   PublicOrderFilled,
+  PublicOrder,
+  QrCodeFilled,
+  QrCodeOutline,
   QrCodeScan,
   RadioButton,
   RadioButtonChecked,
-  RealEstate,
   RealEstateFilled,
+  RealEstate,
   Recycling,
   Reduce,
-  Registry,
   RegistryFilled,
-  Regulation,
+  Registry,
   RegulationFilled,
+  Regulation,
   Request,
-  Resume,
   ResumeFilled,
+  Resume,
   RingsFamily,
-  Schedule,
   ScheduleFilled,
-  Science,
+  Schedule,
   ScienceFilled,
+  Science,
   Search,
-  SecondaryEducation,
   SecondaryEducationFilled,
+  SecondaryEducation,
+  ServicesFilled,
+  ServicesOutline,
   ShareV1,
   ShareV2,
+  ShieldFilled,
   Shield,
   ShieldFailed,
-  ShieldFilled,
   ShieldSuccess,
   ShieldSuccessFilled,
   ShieldWarninng,
-  Ship,
   ShipFilled,
+  Ship,
   SmileFace,
-  SocialRegistry,
   SocialRegistry1,
-  SoftwareRegistry,
+  SocialRegistry,
   SoftwareRegistryFilled,
-  Sport,
+  SoftwareRegistry,
   SportFilled,
-  Sputnik,
+  Sport,
   SputnikFilled,
-  Star,
+  Sputnik,
   StarFilled,
-  State,
+  Star,
   StateFilled,
-  Theaters,
+  State,
   TheatersFilled,
-  Ticket,
+  Theaters,
   TicketFilled,
-  Tourism,
+  Ticket,
   TourismFilled,
-  Toys,
+  Tourism,
   ToysFilled,
-  Train,
+  Toys,
   TrainFilled,
+  Train,
   Trash,
   TrashFilled,
-  TreeFruits,
   TreeFruitsFilled,
-  Truck,
+  TreeFruits,
   TruckFilled,
-  University,
+  Truck,
   UniversityFilled,
+  University,
   Unlock,
   Update,
-  VeterinaryControl,
   VeterinaryControlFilled,
-  ViewGrid,
+  VeterinaryControl,
   ViewGridFilled,
-  ViewList,
+  ViewGrid,
   ViewListFilled,
+  ViewList,
   WarningFilled
 };
 
