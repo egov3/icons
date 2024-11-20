@@ -1,12 +1,13 @@
 import React from "react";
 
-export const College = () => (
+export const College = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M18 15C18 16.1046 17.1046 17 16 17C14.8954 17 14 16.1046 14 15C14 13.8954 14.8954 13 16 13C17.1046 13 18 13.8954 18 15Z"

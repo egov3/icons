@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Kaspi = () => (
+export const Kaspi = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"

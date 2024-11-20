@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Con1 = () => (
+export const Con1 = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"

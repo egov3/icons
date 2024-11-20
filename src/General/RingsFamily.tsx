@@ -1,12 +1,13 @@
 import React from "react";
 
-export const RingsFamily = () => (
+export const RingsFamily = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path d="M18.0001 1.19995H14.4001V3.59995H18.0001V1.19995Z" fill="black" />
     <path

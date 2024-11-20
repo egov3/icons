@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Salyq = () => (
+export const Salyq = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"

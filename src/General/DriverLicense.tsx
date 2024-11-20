@@ -1,12 +1,13 @@
 import React from "react";
 
-export const DriverLicense = () => (
+export const DriverLicense = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <path
       d="M22.5 3H2.5V18.6667H12.5V17H4.31818V4.66667H20.6818V10H22.5V3Z"
