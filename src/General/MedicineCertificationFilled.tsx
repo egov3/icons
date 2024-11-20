@@ -1,13 +1,15 @@
 import React from "react";
 import { iconBaseDefaults } from "../constants/iconDefaults";
 
-export const MedicineCertificationFilled = (
-  props: {
-    fill: string;
-    width: string;
-    height: string;
-  } = iconBaseDefaults
-) => (
+export const MedicineCertificationFilled = ({
+  fill = iconBaseDefaults.fill,
+  width = iconBaseDefaults.width,
+  height = iconBaseDefaults.height,
+}: React.SVGProps<SVGSVGElement> & {
+  fill?: string;
+  width?: string;
+  height?: string;
+}) => (
   <svg
     width={width}
     height={height}
