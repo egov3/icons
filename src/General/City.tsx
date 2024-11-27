@@ -2,6 +2,10 @@ import React from "react";
 
 export const City = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
+  style={{
+    padding: '12px',
+    boxSizing: 'content-box',
+  }}
     width="24"
     height="24"
     viewBox="0 0 24 24"
