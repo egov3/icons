@@ -286,6 +286,7 @@ import { ViewListFilled } from './ViewListFilled';
 import { ViewList } from './ViewList';
 import { WarningFilled } from './WarningFilled';
 import { RingsFamily } from './RingsFamily';
+import { NotificationFilled } from './NotificationFilled';
 const General = {
   Accessibility,
   AccountFilled,
@@ -574,7 +575,8 @@ const General = {
   ViewGrid,
   ViewListFilled,
   ViewList,
-  WarningFilled
+  WarningFilled,
+  NotificationFilled,
 };
 
 export default General;
