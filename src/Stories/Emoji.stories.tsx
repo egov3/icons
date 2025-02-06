@@ -35,7 +35,7 @@ const DefaultEmojiComponent = () => (
   </CardWrapperItem>
 );
 
-export const GeneralStory = () => <DefaultEmojiComponent />;
+export const EmojiStory = () => <DefaultEmojiComponent />;
 
 const meta = {
   title: "Emoji",
