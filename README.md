@@ -35,4 +35,14 @@ npm run build-storybook
 ## Release
 ### 1.0.40
 1. Updated dependencies 
-2. added storybook 
+2. Added storybook 
+
+## Release
+### 1.0.43
+1. Fixed rollup configuration
+2. Added AdditionalStory
+3. Added BasicStory
+4. Added EmojiStory
+5. Added GeneralStory
+6. Added LogoStory
+7. Added NavigationBarStory
