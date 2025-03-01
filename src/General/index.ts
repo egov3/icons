@@ -287,6 +287,7 @@ import { ViewList } from './ViewList';
 import { WarningFilled } from './WarningFilled';
 import { RingsFamily } from './RingsFamily';
 import { NotificationFilled } from './NotificationFilled';
+import { MessagesCheck } from './MessagesCheck';
 const General = {
   Accessibility,
   AccountFilled,
@@ -464,6 +465,7 @@ const General = {
   MedicineHelpFilled,
   MedicineHelp,
   Message,
+  MessagesCheck,
   MessageListFilled,
   MessageListOutline,
   MicrophoneFilled,

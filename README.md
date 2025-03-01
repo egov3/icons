@@ -46,3 +46,8 @@ npm run build-storybook
 5. Added GeneralStory
 6. Added LogoStory
 7. Added NavigationBarStory
+
+## Release
+### 1.0.44
+1. Added General.MessagesCheck
+2. Updated script yarn storybook -> yarn sb
