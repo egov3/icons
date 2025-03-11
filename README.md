@@ -47,28 +47,25 @@ import Icons from '@egov3/icons';
 ## Release
 ### 1.0.46
 1. Updated Basic.ChevronDown
-1. Updated Basic.ChevronDownSmall
-1. Updated Basic.ChevronLeft
-1. Updated Basic.ChevronLeftSmall
-1. Updated Basic.ChevronRight
-1. Updated Basic.ChevronRightSmall
-1. Updated Basic.ChevronUp
-1. Updated Basic.ChevronUpSmall
-1. Updated Logo.Con1
-1. Updated Logo.Eotinish 
-1. Updated Logo.Halyk
-1. Updated Logo.Kaspi
-1. Updated Logo.Kaspi
-1. Updated Logo.Mastercard
-1. Updated Logo.Salyq
-1. Updated storybook and Stories
-1. Updated tsconfig
-1. Updated packages/dependencies
-1. Updated scripts
-1. Added eslint
-
-
-
+2. Updated Basic.ChevronDownSmall
+3. Updated Basic.ChevronLeft
+4. Updated Basic.ChevronLeftSmall
+5. Updated Basic.ChevronRight
+6. Updated Basic.ChevronRightSmall
+7. Updated Basic.ChevronUp
+8. Updated Basic.ChevronUpSmall
+9. Updated Logo.Con1
+10. Updated Logo.Eotinish 
+11. Updated Logo.Halyk
+12. Updated Logo.Kaspi
+13. Updated Logo.Kaspi
+14. Updated Logo.Mastercard
+15. Updated Logo.Salyq
+16. Updated storybook and Stories
+17. Updated tsconfig
+18. Updated packages/dependencies
+19. Updated scripts
+20. Added eslint
 
 ### 1.0.45
 1. Added Logo.Egov
