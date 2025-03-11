@@ -45,6 +45,34 @@ import Icons from '@egov3/icons';
 ```
 
 ## Release
+### 1.0.46
+1. Updated Basic.ChevronDown
+1. Updated Basic.ChevronDownSmall
+1. Updated Basic.ChevronLeft
+1. Updated Basic.ChevronLeftSmall
+1. Updated Basic.ChevronRight
+1. Updated Basic.ChevronRightSmall
+1. Updated Basic.ChevronUp
+1. Updated Basic.ChevronUpSmall
+1. Updated Logo.Con1
+1. Updated Logo.Eotinish 
+1. Updated Logo.Halyk
+1. Updated Logo.Kaspi
+1. Updated Logo.Kaspi
+1. Updated Logo.Mastercard
+1. Updated Logo.Salyq
+1. Updated storybook and Stories
+1. Updated tsconfig
+1. Updated packages/dependencies
+1. Updated scripts
+1. Added eslint
+
+
+
+
+### 1.0.45
+1. Added Logo.Egov
+
 ### 1.0.44
 1. Added General.MessagesCheck
 2. Updated script yarn storybook -> yarn sb
