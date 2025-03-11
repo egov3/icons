@@ -1,41 +1,53 @@
 # Egov3 system-design icons
 
-## Available Scripts
+## Доступные команды
 
-### Build the library
-
-```
-npm run rollup
-```
-
-### Publish the library
-
-```
-npm publish
+### Сборка библиотеки
+```bash
+yarn rollup
 ```
 
-### Run tests
-
-```
-npm run test
-```
-
-### Run storybook locally
-
-```
-npm run storybook
+### Опубликовать
+```bash
+yarn publish
 ```
 
-### Build storybook
-
+### Запустить тесты
+```bash
+yarn test
 ```
-npm run build-storybook
+
+### Запустить storybook локально
+```bash
+yarn sb
+```
+
+### Сборка storybook
+```bash
+yarn build-sb
+```
+
+### Проверить зависимости на актуальность
+```bash
+yarn npm-check
+```
+
+### Проверить зависимости на актуальность и обновить
+```bash
+yarn npm-check -u
+```
+
+### Пример использования
+```tsx
+import Icons from '@egov3/icons';
+
+<Icons.Basic.СhevronUpSmall fill="#758393" />
 ```
 
 ## Release
-### 1.0.40
-1. Updated dependencies 
-2. Added storybook 
+### 1.0.44
+1. Added General.MessagesCheck
+2. Updated script yarn storybook -> yarn sb
 
 ## Release
 ### 1.0.43
@@ -48,6 +60,6 @@ npm run build-storybook
 7. Added NavigationBarStory
 
 ## Release
-### 1.0.44
-1. Added General.MessagesCheck
-2. Updated script yarn storybook -> yarn sb
+### 1.0.40
+1. Updated dependencies 
+2. Added storybook 

@@ -5,9 +5,10 @@ export const Salyq = (props: React.SVGProps<SVGSVGElement>) => (
     width="24"
     height="24"
     viewBox="0 0 24 24"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
+    {...props}
+    fill="none"
   >
     <g clipPath="url(#clip0_572_4545)">
       <rect width="24" height="24" fill="url(#pattern0_572_4545)" />

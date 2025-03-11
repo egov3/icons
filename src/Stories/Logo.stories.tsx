@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
-import { CardWrapperItem } from "./CardWrapperItem";
+
 import Logo from "../Logo";
+import { CardWrapperItem } from "./CardWrapperItem";
 
 const DefaultLogoComponent = () => (
   <CardWrapperItem>
