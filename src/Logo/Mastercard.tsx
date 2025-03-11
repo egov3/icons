@@ -5,8 +5,9 @@ export const Mastercard = (props: React.SVGProps<SVGSVGElement>) => (
     width="35"
     height="24"
     viewBox="0 0 35 24"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
+    fill="none"
   >
     <rect
       x="0.5"

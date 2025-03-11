@@ -1,6 +1,6 @@
 import React from "react";
 
-export const СhevronUp = (props: React.SVGProps<SVGSVGElement>) => (
+export const ChevronDownSmall = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="24"
     height="24"
@@ -10,7 +10,7 @@ export const СhevronUp = (props: React.SVGProps<SVGSVGElement>) => (
     fill="none"
   >
     <path
-      d="M19.637 16.2319L12 8.59594L4.36297 16.2319L2.94897 14.8179L12 5.76794L21.051 14.8179L19.637 16.2319Z"
+      d="M7.08334 10.0833L8.25001 8.91667L12.0833 12.75L15.9167 8.91667L17.0833 10.0833L12.0833 15.0833L7.08334 10.0833Z"
       fill={props.fill ?? "black"}
     />
   </svg>

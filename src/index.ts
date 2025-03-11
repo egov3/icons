@@ -1,8 +1,8 @@
-import General from "./General";
-import Basic from "./Basic";
-import Logo from "./Logo";
-import Emoji from "./Emoji";
 import Additional from "./Additional";
+import Basic from "./Basic";
+import Emoji from "./Emoji";
+import General from "./General";
+import Logo from "./Logo";
 import NavigationBar from "./NavigationBar";
 
 const Icons =  {
@@ -12,6 +12,6 @@ const Icons =  {
   Emoji,
   Additional,
   NavigationBar,
-}
+};
 
-export default Icons
+export default Icons;

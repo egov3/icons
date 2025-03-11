@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
-import { CardWrapperItem } from "./CardWrapperItem";
+
 import NavigationBar from "../NavigationBar";
+import { CardWrapperItem } from "./CardWrapperItem";
 
 const DefaultNavigationBarComponent = () => (
   <CardWrapperItem>

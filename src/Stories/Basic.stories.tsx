@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
-import { CardWrapperItem } from "./CardWrapperItem";
+
 import Basic from "../Basic";
+import { CardWrapperItem } from "./CardWrapperItem";
 
 const DefaultBasicComponent = () => (
   <CardWrapperItem>

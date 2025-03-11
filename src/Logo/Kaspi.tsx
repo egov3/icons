@@ -5,8 +5,9 @@ export const Kaspi = (props: React.SVGProps<SVGSVGElement>) => (
     width="24"
     height="24"
     viewBox="0 0 24 24"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
+    fill="none"
   >
     <g clipPath="url(#clip0_596_3234)">
       <path

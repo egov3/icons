@@ -1,7 +1,7 @@
 import { AttachFileAdd } from './AttachFileAdd';
 import { Refresh } from './Refresh';
-import { SettingsOutline } from './SettingsOutline';
 import { SettingsFilled } from './SettingsFilled';
+import { SettingsOutline } from './SettingsOutline';
 import { Time } from './Time';
 import { TimeFilled } from './TimeFilled';
 

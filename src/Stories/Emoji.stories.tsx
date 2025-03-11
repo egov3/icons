@@ -1,8 +1,9 @@
 "use client";
 
 import React from "react";
-import { CardWrapperItem } from "./CardWrapperItem";
+
 import Emoji from "../Emoji";
+import { CardWrapperItem } from "./CardWrapperItem";
 
 const DefaultEmojiComponent = () => (
   <CardWrapperItem>
