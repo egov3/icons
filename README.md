@@ -66,6 +66,7 @@ import Icons from '@egov3/icons';
 18. Updated packages/dependencies
 19. Updated scripts
 20. Added eslint
+21. Updated github actions publish.yml
 
 ### 1.0.45
 1. Added Logo.Egov
@@ -74,7 +75,6 @@ import Icons from '@egov3/icons';
 1. Added General.MessagesCheck
 2. Updated script yarn storybook -> yarn sb
 
-## Release
 ### 1.0.43
 1. Fixed rollup configuration
 2. Added AdditionalStory
@@ -84,7 +84,6 @@ import Icons from '@egov3/icons';
 6. Added LogoStory
 7. Added NavigationBarStory
 
-## Release
 ### 1.0.40
 1. Updated dependencies 
 2. Added storybook 
