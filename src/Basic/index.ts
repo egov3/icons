@@ -2,28 +2,28 @@ import { ArrowLeft } from './ArrowLeft';
 import { ArrowRight } from './ArrowRight';
 import { ArrowUp } from './ArrowUp';
 import { Check } from './Check';
-import { СhevronDownSmall } from './СhevronDownSmall';
-import { СhevronDown } from './СhevronDown';
-import { СhevronLeftSmall } from './СhevronLeftSmall';
-import { СhevronLeft } from './СhevronLeft';
-import { СhevronRightSmall } from './СhevronRightSmall';
-import { СhevronRight } from './СhevronRight';
-import { СhevronUpSmall } from './СhevronUpSmall';
-import { СhevronUp } from './СhevronUp';
+import { ChevronDownSmall } from './ChevronDownSmall';
+import { ChevronDown } from './ChevronDown';
+import { ChevronLeftSmall } from './ChevronLeftSmall';
+import { ChevronLeft } from './ChevronLeft';
+import { ChevronRightSmall } from './ChevronRightSmall';
+import { ChevronRight } from './ChevronRight';
+import { ChevronUpSmall } from './ChevronUpSmall';
+import { ChevronUp } from './ChevronUp';
 
 const Basic = {
   ArrowLeft,
   ArrowRight,
   ArrowUp,
   Check,
-  СhevronDownSmall,
-  СhevronDown,
-  СhevronLeftSmall,
-  СhevronLeft,
-  СhevronRightSmall,
-  СhevronRight,
-  СhevronUpSmall,
-  СhevronUp
+  ChevronDownSmall,
+  ChevronDown,
+  ChevronLeftSmall,
+  ChevronLeft,
+  ChevronRightSmall,
+  ChevronRight,
+  ChevronUpSmall,
+  ChevronUp
 };
 
 export default Basic;
