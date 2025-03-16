@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+      - release-1.x
+      - release-2.x
 
 jobs:
   publish:
