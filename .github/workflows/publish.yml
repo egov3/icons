@@ -54,7 +54,8 @@ jobs:
           git commit -m "ci: bump version to $(jq -r '.version' package.json)" || echo "No changes to commit"
 
           git fetch origin
-          git reset --hard origin/main  # 💥 Принудительно обновляем код
+          git checkout main
+          git reset --hard origin/main
 
           git push --force https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/egov3/icons.git main
 
