@@ -24,6 +24,15 @@ jobs:
           node-version: "20"
           registry-url: "https://registry.npmjs.org/"
 
+      - name: Disable Corepack
+        run: corepack disable
+
+      - name: Install Yarn 1.x
+        run: npm install -g yarn@1
+
+      - name: Check Yarn version
+        run: yarn --version
+
       - name: Install dependencies
         run: yarn install
 
